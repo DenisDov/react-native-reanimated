@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "s": "npx react-native run-ios --simulator='iPhone SE (3rd generation)'",
     "start": "node ./scripts/generateIndex.js && react-native start",
     "start-web": "node ./scripts/generateIndex.js --web && yarn web",
     "start-test": "node ./scripts/generateIndex.js --test && react-native start",
